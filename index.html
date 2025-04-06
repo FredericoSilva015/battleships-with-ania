@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleships the Game on JS & TS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-info">
+        <p>Turn: <span id="turn-display"></span></p>
+        <p>Info: <span id="info"></span></p>
+    </div>    
+    <div id="games-board-container"></div>
+    <div class="options-container">
+        <div id="0" class="preview destroyer-preview destroyer" draggable="true"></div>
+        <div id="1" class="preview submarine-preview submarine" draggable="true"></div>
+        <div id="2" class="preview cruiser-preview cruiser" draggable="true"></div>
+        <div id="3" class="preview battleship-preview battleship" draggable="true"></div>
+        <div id="4" class="preview carrier-preview carrier" draggable="true"></div>
+    </div>
+    <button id="flip-button">FLIP</button>
+    <button id="start-button">START</button>
+    <script src="app.js"></script>
+</body>
+</html>
